@@ -1,0 +1,5 @@
+package entites.enuns;
+
+public class OrderStatus {
+
+}
