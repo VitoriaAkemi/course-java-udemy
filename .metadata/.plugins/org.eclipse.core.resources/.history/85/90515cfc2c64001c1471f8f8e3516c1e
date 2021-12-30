@@ -1,9 +1,0 @@
-package entites.enuns;
-
-public class OrderStatus {
-		
-	PENDING_PAYMENT,
-	PROCESSING,
-	SHIPPED,
-	DEVILERED;
-}
