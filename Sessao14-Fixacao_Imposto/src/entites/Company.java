@@ -12,7 +12,7 @@ public class Company extends TaxPayer{
 		this.numberOfEmployees = numberOfEmployees;
 	}
 
-	public int getNumberOfEmployees() {
+	public int getNumbersOfEmployees() {
 		return numberOfEmployees;
 	}
 

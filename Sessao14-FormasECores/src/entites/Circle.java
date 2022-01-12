@@ -1,6 +1,5 @@
 package entites;
 
-
 import entites.enums.Color;
 
 public class Circle  extends Shape  {
