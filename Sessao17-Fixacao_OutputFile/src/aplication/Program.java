@@ -25,8 +25,6 @@ public class Program {
 		File sourceFile = new File(sourceFileStr);
 		String sourceFolderStr = sourceFile.getParent();
 		
-		boolean success = new File(sourceFolderStr + "./out").mkdir();
-		
 		String targetFileStr = sourceFolderStr + "./out/summary.txt";
 		
 		try (BufferedReader br = new BufferedReader(new FileReader(sourceFileStr))) {
@@ -59,6 +57,7 @@ public class Program {
 		} catch (IOException e) {
 			System.out.println("Error reading file: " + e.getMessage());
 		}
+		sc.close();
 
 	}
 

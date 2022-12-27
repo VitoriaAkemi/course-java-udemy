@@ -57,7 +57,8 @@ public class Program {
 		System.out.println("ORDER SUMMARY:");
 		System.out.print(order);
 		
-		
+
+		sc.close();
 
 	}
 

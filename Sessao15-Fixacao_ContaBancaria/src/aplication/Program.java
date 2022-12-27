@@ -40,6 +40,7 @@ public class Program {
 		catch (NotEnoughBalanceException e) {
 			System.out.println("Withdraw error: " + e.getMessage());
 		}
+		sc.close();
 	}
 
 }
